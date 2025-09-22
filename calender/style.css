@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+}
+.calender{
+    width: 40%;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+.month{
+    margin: 10x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgrey;
+    padding: 10px;
+}
+.day-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 500;
+    color: black;
+}
+.year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgrey;
+    padding: 10px;
+}

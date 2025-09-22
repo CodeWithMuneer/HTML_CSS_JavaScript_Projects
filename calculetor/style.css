@@ -1,0 +1,37 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: darkcyan;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    background-color: blueviolet;
+    width: 350px;
+    height: 600px;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.hed{
+    background-color: darkorange;
+    color: #fff;
+}
